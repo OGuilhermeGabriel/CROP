@@ -84,7 +84,7 @@ void pararRobo() {
 
 void setup() {
   Serial.begin(115200); //saida serial
-  Dabble.begin("Robo_2WD_ESP32");
+  Dabble.begin("Robo_2WD_ESP32_1");
 
   //setando os pinos, io's e canais PWM 
   pinMode(MOTOR_ESQUERDO_IN1, OUTPUT);
